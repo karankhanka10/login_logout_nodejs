@@ -1,0 +1,40 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the h1 element */
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Style the form container */
+form {
+    margin-top: 20px;
+}
+
+/* Style the logout button */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Hover effect for the logout button */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
